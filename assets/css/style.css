@@ -1,0 +1,202 @@
+* {
+    box-sizing: inherit;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    font-style: inherit;
+    font-weight: inherit;
+    line-height: 1;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    /* font-family: 'Roboto', sans-serif; */
+}
+
+.main-container {
+    display: flex;
+    /* height: 100vh; */
+    overflow: hidden;
+}
+
+
+/* Sidebar */
+
+.sidebar-header {
+    padding: 64px 64px 30px 64px;
+}
+
+.logo {
+    display: block;
+    height: auto;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.logo-img {
+    width: 90px;
+}
+
+.sidebar-img-background {
+    width: 100%;
+}
+
+
+/* Content */
+.main {
+    flex: 1;
+    background-color: #ffffff;
+}
+
+.content-nav {
+    display: flex;
+    justify-content: end;
+}
+
+.content-nav-text {
+    margin: 0;
+    font-size: 18px;
+    padding: 30px 30px 0 30px;
+    line-height: 28px;
+}
+
+.content-nav-link {
+    text-decoration: none;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-main {
+    width: 100%;
+    max-width: 416px;
+    padding: 30px 60px 0 60px;
+}
+
+.content-main-heading {
+    margin-top: 0;
+    margin-bottom: 26px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.content-main-text {
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.content-main-message {
+    margin-top: 2px;
+    line-height: 24px;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.content-main-text-link {
+    text-decoration: none;
+}   
+
+/* Form */
+
+.content-formfield {
+    padding: 8px 0;
+}
+
+.label {
+    display: block;
+    margin-top: 14px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.input {
+    font-size: 16px;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    background-color: #f3f3f4;
+    padding: 10px 16px;
+    margin-right: 8px;
+    border: none;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+}
+
+.input:hover,
+.input:focus {
+    border: 1px solid #ea4c89;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+.content-form-check {
+    font-size: 18px;
+    margin-top: 18px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.content-form-check label {
+    font-weight: 100;
+    color: #333;
+}
+
+.content-form-check-link {
+    text-decoration: none;
+}
+
+.form-btn {
+    width: 100%;
+    user-select: none;
+    margin-top: 40px;
+    height: 40px;
+    background-color: #ea4c89;
+    border-radius: 5px;
+    line-height: 40px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    border: none;
+    padding: 0;
+}
+
+.form-btn:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.recaptcha-terms {
+    margin-top: 30px;
+    font-size: 14px;
+    color: rgb(138, 135, 135);
+    line-height: 20px;
+}
+
+.recaptcha-terms-link {
+    text-decoration: none;
+}
+
+.message {
+    display: block;
+    font-size: 14px;
+    margin-top: 2px;
+    margin-left: 2px;
+    color: red;
+}

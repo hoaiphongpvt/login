@@ -1,0 +1,86 @@
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+    height: 100%;
+    background-color: #f1cdd7; 
+}
+
+.sidebar-heading {
+    margin: 0 0;
+    padding-right: 30px;
+    font-size: 30px;
+    line-height: 30px;
+    color: #865c6c;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+}
+
+.sidebar-footer-text {
+    margin: 0;
+    font-size: 18px;
+    color: #865c6c;
+    font-weight: 400;
+    padding: 5px 64px 15px 64px;
+}
+
+.sidebar-footer-link {
+    color: #865c6c;
+    text-decoration-color: #865c6c;
+}
+
+.content-main {
+    width: 100%;
+    max-width: 416px;
+    padding: 80px 60px 0 60px;
+}
+
+.contain-main-loginWith {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.content-main-heading {
+    color: #9d6d7a;
+}
+
+.loginWith-text {
+    font-size: 18px;
+    font-style: inherit;
+}
+
+.loginWith-link {
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.loginWith-icon {
+    font-size: 20px;
+    color: #6e6d7a;
+}
+
+.seperate {
+    margin-top: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #6e6d7a;
+}
+
+.seperate-hr {
+    width: 45%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.forgotpassword {
+    margin-top: 10px;
+}
+
+.forgotpassword-link {
+    text-decoration: none;
+    color: #4f3cc9;
+    font-size: 16px;
+}

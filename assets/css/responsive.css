@@ -1,0 +1,54 @@
+/* Mobile and Tablet */
+
+@media screen and (max-width: 959px) {
+    .main-container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .sidebar {
+        display: block;
+        width: 100%;
+        height: auto;
+        background-color: white;
+    }
+
+    .sidebar-header {
+        max-width: 416px;
+        margin: 0 auto;
+        padding: 48px 20px 0 20px;
+    }
+
+    .logo {
+        display: block;
+        width: 100%;
+    }
+
+    .logo-img {
+        color: #000;
+    }
+
+    .sidebar-heading,
+    .sidebar-img,
+    .sidebar-footer {
+        display: none;
+    }
+
+    .main {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .content-nav {
+        display: block;
+        text-align: center;
+    }
+    
+    .content-main {
+        padding: 20px 20px 0 20px;
+    }
+
+    .content-nav-text {
+        padding: 30px;
+    }
+}
